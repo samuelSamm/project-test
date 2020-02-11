@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="lib/canvasjs.min.js"></script>
+    <script src="../dist/jquery.Graphs.min.js"></script>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Demo implementation of CanvasJS</title>
+  </head>
+  
+  <body>
+      <div class="container">
+
+        <input type="hidden" class="canvasjs-settings" data-bacakgroundcolor="#ffffff" data-colorsetname="default" data-fontsize="20" data-fontweight="normal" data-fontcolor="#333332" data-fontfamily="Arial" data-colorset="#003d59,#ecc500,#d3693b,#a6bbc5,#4c778a,#26a489,#dc825a,#118baf,#419dbe,#62b29d,#333332" />
+
+        <div class="row">
+        	<div class="col-md-9 col-lg-9 col-xs-12 col-sm-12">
+        		<div class="canvasjs" id="graph1" data-graphtype="doughnut" data-stats="json/dummy-graphdata.json" data-title="Lorem doughnut"></div>
+        	</div>
+
+        	<div class="col-md-9 col-lg-9 col-xs-12 col-sm-12">
+        		<div class="canvasjs" id="graph2" data-graphtype="pie" data-stats="json/dummy-graphdata.json" data-title="Lorem pie 1"></div>
+        	</div>
+
+          <div class="col-md-9 col-lg-9 col-xs-12 col-sm-12">
+            <div class="canvasjs" id="graph22" data-graphtype="pie" data-stats="json/dummy-graphdata-muchdata.json" data-title="Lorem pie 2"></div>
+          </div>
+
+        	<div class="col-md-9 col-lg-9 col-xs-12 col-sm-12">
+        		<div class="canvasjs" id="graph3" data-graphtype="column" data-stats="json/dummy-graphdata-columns.json" data-title="Lorem columns"></div>
+        	</div>
+
+          <div class="col-md-9 col-lg-9 col-xs-12 col-sm-12">
+            <div class="canvasjs" id="graph5" data-graphtype="pie" data-title="Alternative data source pie">
+              <div class="graphdata" data-label="Playstation" data-y="357" data-x="10" data-color="#003d59"></div>
+              <div class="graphdata" data-label="Xbox" data-y="400" data-x="10" data-color="#118baf"></div>
+              <div class="graphdata" data-label="Nintendo" data-y="1358" data-x="10" data-color="#26a489"></div>
+            </div>
+          </div>
+
+          <div class="col-md-9 col-lg-9 col-xs-12 col-sm-12">
+            <div class="canvasjs" id="graph6" data-graphtype="column" data-title="Alternative data source columns">
+              <div class="graphdata" data-label="Playstation" data-y="357" data-color="#003d59"></div>
+              <div class="graphdata" data-label="Xbox" data-y="400" data-color="#118baf"></div>
+              <div class="graphdata" data-label="Nintendo" data-y="1358" data-color="#26a489"></div>
+            </div>
+          </div>
+
+          <div class="col-md-9 col-lg-9 col-xs-12 col-sm-12">
+            <div class="canvasjs" id="graph4" data-graphtype="IncompleteDonut" data-value="42" data-color="#edc600"></div>
+            <div id="graph4-total" class="IncompleteDonut_value">300</div>
+            <div id="graph4-label" class="IncompleteDonut_label">Candy</div>
+          </div>
+
+        </div>
+      </div>
+        <script>
+        if (/*@cc_on!@*/false && document.documentMode === 10) {
+            document.documentElement.className+=' ie10';
+        }
+        </script>
+	<script>
+	jQuery(document).ready(function ($) {
+		graphs.init();
+	});
+	</script>
+  </body>
+</html>

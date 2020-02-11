@@ -1,0 +1,31 @@
+  [{
+  	"label": "Playstation",
+  	"y": 357,
+  	"x": 10,
+  	"color": ""
+  }, {
+  	"label": "Xbox",
+  	"y": 400,
+  	"x": 20,
+  	"color": ""
+  }, {
+  	"label": "Xbox 360",
+  	"y": 1171,
+  	"x": 20,
+  	"color": ""
+  }, {
+  	"label": "Gameboy",
+  	"y": 879,
+  	"x": 20,
+  	"color": ""
+  }, {
+  	"label": "Nintendo",
+  	"y": 157,
+  	"x": 20,
+  	"color": ""
+  }, {
+  	"label": "Nintendo",
+  	"y": 1358,
+  	"x": 30,
+  	"color": ""
+  }]

@@ -1,0 +1,16 @@
+  [{
+  	"label": "Playstation",
+  	"y": 357,
+  	"x": 10,
+  	"color": ""
+  }, {
+  	"label": "Xbox",
+  	"y": 400,
+  	"x": 20,
+  	"color": ""
+  }, {
+  	"label": "Nintendo",
+  	"y": 1358,
+  	"x": 30,
+  	"color": ""
+  }]

@@ -1,0 +1,21 @@
+body
+{
+	padding: 10px 20px;	
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+@media (max-width:480px) {
+    body {
+        padding: 0px;
+    }
+}

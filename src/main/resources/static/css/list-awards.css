@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-ene-2019, 9:22:35
+    Author     : MateoO
+*/
+.row-table-main{
+           margin-bottom: 20px;
+}
+
+.row-table {
+    border-bottom: 0.5px #BDBDBC solid;
+    margin-bottom: 15px;
+    padding: 2px 0px 7px 2px;
+}
+
+.colum-table {
+    cursor:pointer;
+}
+.ui-datepicker-calendar {
+    display: none;
+}
+.font-size-star{
+    color: #51CF66;
+    font-size: 30px;
+}
+
+.font-size-star-xs{
+    color: #51CF66;
+    font-size: 15px;
+}
+
+.font-size-star-black{
+    color: #495057;
+    font-size: 30px;
+}
+
+.font-size-star-black-xs{
+    color: #495057;
+    font-size: 15px;
+}
+
+.font-size-score{
+    font-size: 18px;
+}
+
+.uppercase-txt {
+    text-transform: uppercase;
+  }

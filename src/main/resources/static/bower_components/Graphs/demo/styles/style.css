@@ -1,0 +1,36 @@
+body {
+	padding-bottom: 150px;
+}
+.col-lg-9 .canvasjs,
+.col-md-9 .canvasjs,
+.col-md-8 .canvasjs,
+.col-lg-8 .canvasjs {
+	height: 400px; 
+}
+
+.col-md-6 .canvasjs,
+.col-lg-6 .canvasjs {
+	height: 350px; 
+}
+
+.col-md-4 .canvasjs,
+.col-lg-4 .canvasjs {
+	height: 300px; 
+}
+
+.IncompleteDonut_value {
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: bold;
+  position:absolute;left:0px;top:0px;height:100%;width:100%;
+  color: black;
+  text-align: center;
+  line-height:400px;
+}
+.IncompleteDonut_label {
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px;
+}

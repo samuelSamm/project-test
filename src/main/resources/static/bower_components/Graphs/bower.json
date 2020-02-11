@@ -1,0 +1,27 @@
+{
+  "name": "Graphs",
+  "version": "1.0.1",
+  "homepage": "https://github.com/KnowitLabs/Graphs",
+  "authors": [
+    "Andreas Norman <an@andreasnorman.se>"
+  ],
+  "description": "This is a CanvasJS Implementation made to simplify the use of CanvasJS in web projects.",
+  "main": "src/jquery.Graphs.js",
+  "keywords": [
+    "graphs",
+    "jquery",
+    "canvasjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "demo/dependencies",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.x"
+  }
+}
