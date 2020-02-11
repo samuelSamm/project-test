@@ -1,2 +1,3 @@
 # project-test
-description test. Samuel Perez Sandoval
+--Samuel Perez Sandoval
+Web app to a intreview test 
